@@ -4,7 +4,8 @@
   "description": "Project template for Coalmarch Productions",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "browser-sync start --server --directory --startPath='index.html'",
+    "sass": "node-sass scss/main.scss css/main.css"
   },
   "repository": {
     "type": "git",
