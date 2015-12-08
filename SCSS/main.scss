@@ -1,0 +1,22 @@
+body {
+  background: #0EBFDD;
+  font-family: 'Open Sans', sans-serif;
+  color: #FFF;
+
+  .container {
+    margin: 0 auto;
+    width: 90%;
+
+    h1 {
+
+    }
+
+    ul.team {
+      list-style: none;
+
+      li {
+        display: inline-block;
+      }
+    }
+  }
+}

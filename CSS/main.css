@@ -1,0 +1,11 @@
+body {
+  background: #0EBFDD;
+  font-family: 'Open Sans', sans-serif;
+  color: #FFF; }
+  body .container {
+    margin: 0 auto;
+    width: 90%; }
+    body .container ul.team {
+      list-style: none; }
+      body .container ul.team li {
+        display: inline-block; }
