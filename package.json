@@ -1,0 +1,24 @@
+{
+  "name": "coalmach-template",
+  "version": "0.0.0",
+  "description": "Project template for Coalmarch Productions",
+  "main": "index.html",
+  "scripts": {
+    "start": "browser-sync start --server --directory --startPath='index.html'",
+    "sass": "node-sass scss/main.scss css/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericksonk/Coalmarch-Template.git"
+  },
+  "author": "Kristine Erickson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ericksonk/Coalmarch-Template/issues"
+  },
+  "homepage": "https://github.com/ericksonk/Coalmarch-Template#readme",
+  "dependencies": {
+    "browser-sync": "^2.10.0",
+    "node-sass": "^3.4.2"
+  }
+}
